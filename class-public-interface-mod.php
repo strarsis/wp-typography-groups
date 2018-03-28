@@ -1,5 +1,5 @@
 <?php
-// Modified for general usage
+// Modified for generic usage
 // https://github.com/mundschenk-at/wp-typography/blob/71a04e9f7237308acb2e50b2a5ee1b0d2240eb27/includes/wp-typography/components/class-public-interface.php
 
 
