@@ -1,0 +1,15 @@
+{
+    "name": "strarsis/wp-typography-groups",
+    "description": "Plugin for grouping words (derived from WP Typography plugin)",
+    "keywords": [
+        "WordPress", "plugin", "typography", "wp-typography", "groups", "spaces", "span", "break"
+    ],
+    "license": "proprietary",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=5.4.0",
+        "composer/installers": "~1.0",
+        "mundschenk-at/php-typography": "^6.1.0"
+    },
+    "minimum-stability": "dev"
+}
