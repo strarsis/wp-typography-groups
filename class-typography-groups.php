@@ -52,7 +52,9 @@ class Typography_Groups {
 
 				if(trim($fragment) === '') continue; // skip whitspace/empty fragments
 
-				$DomWord = $DomDoc->createElement('span', $fragment);
+				$DomWord = $DomDoc->createElement('span');
+				$DomWord->appendChild($DomDoc->createTextNode($fragment)); // handles escaping
+
 				$DomWord->setAttribute('class', $wrapperClass);
 
 				$DomParent->insertBefore(  $DomWord, $DomText  );
