@@ -66,7 +66,7 @@ class Typography_Groups {
 				self::domInsertAfter(  $DomSpace, $DomWord  );
 			}
 			if($changed) $DomParent->removeChild($DomText); // clean up
-		}, $settings, $is_title, $this->body_classes );
+		}, $settings, $is_title, ($this->body_classes ? $this->body_classes : []) );
 	}
 	
 
